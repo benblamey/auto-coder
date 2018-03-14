@@ -1,0 +1,23 @@
+INPUT:
+
+a task - keywords?
+examples:
+	before > after
+	like a a test case?
+
+TRAINING CORPUS:
+
+- stack overflow code snippets
+- linux manuals
+
+LEARNING:
+
+- execute the command/code
+-- does it succeed? 
+	return a non-zero error code
+
+-- does it produce the right output?
+
+OUTPUT:
+
+- the learnt program
